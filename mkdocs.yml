@@ -10,4 +10,4 @@ nav:
  # - My HTML Page: html/index.html  # Thêm dòng này để chỉ định file HTML
 theme:
   name: material  # hoặc theme mà bạn đã chọn
-repo_url: https://github.com/your-github-username/my_mkdocs_site.git
+repo_url: https://github.com/ngocpham00/my_mkdocs_site.git
