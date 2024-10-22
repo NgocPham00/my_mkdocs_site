@@ -1,0 +1,12 @@
+
+
+version: '3.8'  # Sử dụng phiên bản mới nhất của Docker Compose
+services:       # Bắt đầu định nghĩa dịch vụ
+  mkdocs:       # Tên dịch vụ
+    image: squidfunk/mkdocs-material:latest # Sử dụng image chính thức của MkDocs
+    ports:  # Cấu hình cổng
+      - "8000:8000"  # Mở cổng 8000 trên máy host để truy cập
+    volumes:  # Cấu hình thư mục để chia sẻ giữa máy host và container
+      - D:/my_mkdocs_site/docs:/docs
+      - D:/my_mkdocs_site/mkdocs.yml:/mkdocs.yml
+    command: serve --dev-addr=0.0.0.0:8000  # Lệnh để chạy MkDocs
