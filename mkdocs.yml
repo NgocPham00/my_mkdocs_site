@@ -1,13 +1,9 @@
-# site_name: My MkDocs Site
-# nav:
-#   - Home: index.html
-# theme:
-#   name: material
 
-site_name: My MkDocs Site
+site_name: Techdox Docs
 nav:
-  - Home: index.html
- # - My HTML Page: html/index.html  # Thêm dòng này để chỉ định file HTML
+  - Home: index.md
+  - About: about.md
 theme:
-  name: material  # hoặc theme mà bạn đã chọn
+  name: 'material'
+
 repo_url: https://github.com/ngocpham00/my_mkdocs_site.git
